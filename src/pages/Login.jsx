@@ -23,8 +23,8 @@ function Login() {
         </p>
         
         <form onSubmit={handleLogin}>
-          <div className="mb-4">
-            <label htmlFor="email" className="block text-purple-600 text-sm mb-1" style={{ color: '#8b5cf6' }}>
+          <div className="mb-4 relative">
+            <label htmlFor="email" className="block text-purple-600 text-sm mb-1 absolute -top-2.5 left-3  bg-white px-2" style={{ color: '#8b5cf6' }}>
               Email Address
             </label>
             <input
@@ -39,8 +39,8 @@ function Login() {
             />
           </div>
           
-          <div className="mb-8">
-            <label htmlFor="password" className="block text-purple-600 text-sm mb-1" style={{ color: '#8b5cf6' }}>
+          <div className="mb-8 relative">
+            <label htmlFor="password" className="block text-purple-600 text-sm mb-1 absolute -top-2.5 left-3  bg-white px-2" style={{ color: '#8b5cf6' }}>
               Password
             </label>
             <input

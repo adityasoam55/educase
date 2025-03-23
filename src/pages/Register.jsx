@@ -35,8 +35,8 @@ function Register() {
         </h1>
         
         <form onSubmit={handleSubmit}>
-          <div className="mb-4">
-            <label className="block text-purple-600 text-sm mb-1">
+          <div className="mb-4 relative">
+            <label className="block text-purple-600 text-sm mb-1 absolute -top-2.5 left-3  bg-white px-2">
               Full Name<span className="text-red-500">*</span>
             </label>
             <input
@@ -50,8 +50,8 @@ function Register() {
             />
           </div>
           
-          <div className="mb-4">
-            <label className="block text-purple-600 text-sm mb-1">
+          <div className="mb-4 relative">
+            <label className="block text-purple-600 text-sm mb-1 absolute -top-2.5 left-3  bg-white px-2">
               Phone number<span className="text-red-500">*</span>
             </label>
             <input
@@ -65,8 +65,8 @@ function Register() {
             />
           </div>
           
-          <div className="mb-4">
-            <label className="block text-purple-600 text-sm mb-1">
+          <div className="mb-4 relative">
+            <label className="block text-purple-600 text-sm mb-1 absolute -top-2.5 left-3  bg-white px-2">
               Email address<span className="text-red-500">*</span>
             </label>
             <input
@@ -80,8 +80,8 @@ function Register() {
             />
           </div>
           
-          <div className="mb-4">
-            <label className="block text-purple-600 text-sm mb-1">
+          <div className="mb-4 relative">
+            <label className="block text-purple-600 text-sm mb-1 absolute -top-2.5 left-3  bg-white px-2">
               Password<span className="text-red-500">*</span>
             </label>
             <input
@@ -95,8 +95,8 @@ function Register() {
             />
           </div>
           
-          <div className="mb-6">
-            <label className="block text-purple-600 text-sm mb-1">
+          <div className="mb-6 relative">
+            <label className="block text-purple-600 text-sm mb-1 absolute -top-2.5 left-3  bg-white px-2">
               Company name
             </label>
             <input
